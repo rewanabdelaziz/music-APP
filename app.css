@@ -11,7 +11,6 @@ body {
       display: flex;
       justify-content:center;
       align-items: center;
-      max-width: 80rem;
       margin: auto auto;
   
   }
@@ -285,28 +284,30 @@ body {
 
   @media (max-width:560px){
     .player{
-      height: 60vh;
+      height: 75vh;
+      width: 70vw;
+      
     }
-    i.fa-random,
+     i.fa-random,
     i.fa-step-backward,
     i.fa-step-forward,
     i.fa-repeat{
-    font-size:10px;
-    padding:3px;
+    font-size:15px;
+    padding:7px;
     }
     i.fa-play-circle,
     i.fa-pause-circle{
       font-size:35px;  
-      padding:3px;
+      padding:7px;
     }
     .repeat-track,
     .random-track,
     .prev-track,
     .next-track,
     .playpause-track {
-    padding: 5px;
+    padding: 7px;
     }
-  
+  /*
     .track-art {
       margin: 15px;
       height: 100px;
@@ -343,7 +344,7 @@ body {
       width: 5px;
       border-radius: 50px;
       margin: 0 3px;
-    }
+    } */
    }
 
 
@@ -352,12 +353,12 @@ body {
     i.fa-step-backward,
     i.fa-step-forward,
     i.fa-repeat{
-    font-size:10px;
+    font-size:20px;
    
     }
     i.fa-play-circle,
     i.fa-pause-circle{
-      font-size:20px;  
+      font-size:35px;  
    
     }
     .repeat-track,
@@ -365,11 +366,11 @@ body {
     .prev-track,
     .next-track,
     .playpause-track {
-    padding: 3px;
+    padding: 5px;
     }
     i.fa-volume-down,
     i.fa-volume-up {
-    padding: 3px;
+    padding: 5px;
     }
     .stroke{
       height: 70%
